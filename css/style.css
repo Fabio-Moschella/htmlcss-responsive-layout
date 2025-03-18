@@ -43,6 +43,11 @@ section {
 main {
   background-color: #9b6802;
 }
+#Desserts-video h2 {
+  color: #4e3969;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
 .background-icon {
   background-color: white;
   border-radius: 999px;
@@ -51,6 +56,30 @@ main {
 .flex-icon {
   padding-bottom: 10px;
 }
+#Presentation {
+  padding-bottom: 40px;
+}
+/*FOOTER*/
+footer {
+  background-color: #4e3969;
+}
+#footer-booleano ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer-booleano li {
+  padding-right: 10px;
+}
+.fa-copyright {
+  vertical-align: middle;
+  font-size: small;
+}
+#footer-booleano h3 {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
 /*MOBILE-FIRST*/
 @media screen and (min-width: 576px) {
   /*Header-mobile-first*/
@@ -64,9 +93,7 @@ main {
     min-width: 550px;
   }
   /*DEESERTS-VIDEO*/
-  #Desserts-video h2 {
-    color: #4e3969;
-  }
+
   #Desserts-video span {
     display: none;
   }
@@ -112,7 +139,20 @@ main {
     margin-bottom: 10px;
     width: 10%;
   }
+  #Presentation img {
+    width: 70%;
+    padding-bottom: 10px;
+  }
   #Presentation .tiramisu-img {
-    width: 50%;
+    text-align: center;
+  }
+
+  /*Footer-Booleano*/
+  .flex-footer {
+    text-align: center;
+    color: white;
+  }
+  ul {
+    text-decoration: underline;
   }
 }
