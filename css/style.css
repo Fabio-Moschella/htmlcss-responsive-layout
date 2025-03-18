@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
 /*UTILITY*/
@@ -109,6 +110,7 @@ footer {
   }
   #Desserts-video .description-video {
     padding-top: 20px;
+    padding-bottom: 30px;
   }
   #Desserts-video .description-video b {
     color: #4e3969;
@@ -120,7 +122,7 @@ footer {
     color: #4e3969;
   }
   /*PUBBLISH*/
-  #pubblish img {
+  #pubblish {
     display: none;
   }
   /*ICON-AWSOME*/
@@ -152,7 +154,7 @@ footer {
     text-align: center;
     color: white;
   }
-  ul {
+  #footer-booleano ul {
     text-decoration: underline;
   }
 }
