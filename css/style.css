@@ -42,12 +42,7 @@ section {
 }
 /*MAIN*/
 main {
-  background-color: #9b6802;
-}
-#Desserts-video h2 {
-  color: #4e3969;
-  margin-bottom: 10px;
-  font-weight: 900;
+  background-color: #f6f5f3;
 }
 .background-icon {
   background-color: white;
@@ -86,16 +81,20 @@ footer {
   /*Header-mobile-first*/
   #title-giallo h1 {
     text-align: center;
-    color: #ff9614;
+    color: #9b6802;
   }
   /*main-mobile-first*/
 
   .container {
-    min-width: 550px;
+    max-width: 550px;
   }
   /*DEESERTS-VIDEO*/
-
-  #Desserts-video span {
+  #Desserts-video h2 {
+    color: #4e3969;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
+  .visible {
     display: none;
   }
   #Desserts-video .card {
@@ -156,5 +155,45 @@ footer {
   }
   #footer-booleano ul {
     text-decoration: underline;
+    gap: 2rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #footer-booleano h3 {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+  #title-giallo h1 {
+    text-align: start;
+    margin-left: 10px;
+  }
+  #Desserts-video {
+    padding-top: 4rem;
+  }
+  #Desserts-video h2 {
+    font-size: 2rem;
+  }
+  #Desserts-video h2 .visible {
+    display: inline-block;
+  }
+  #Desserts-video .description-video {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Desserts-video li {
+    padding-top: 10px;
+    padding-right: 40px;
+  }
+  #icon-awsome .background-icon {
+    background-color: white;
+    border-radius: 999px;
+    padding: 5px 50px;
+  }
+  #pubblish {
+    display: block;
   }
 }
