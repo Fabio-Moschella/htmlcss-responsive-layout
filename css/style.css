@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*UTILITY*/
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+.debug,
+.debug * {
+  min-height: 50px;
+  padding: 5px;
+  background-color: #ff000022;
+  border: 2px dashed red;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+section {
+  padding: 10px 0;
+}
+/*HEADER*/
+#title-giallo {
+  background-color: white;
+}
+#title-giallo h1 {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+/*MAIN*/
+main {
+  background-color: #9b6802;
+}
+.background-icon {
+  background-color: white;
+  border-radius: 999px;
+  padding: 10px;
+}
+.flex-icon {
+  padding-bottom: 10px;
+}
+/*MOBILE-FIRST*/
+@media screen and (min-width: 576px) {
+  /*Header-mobile-first*/
+  #title-giallo h1 {
+    text-align: center;
+    color: #ff9614;
+  }
+  /*main-mobile-first*/
+
+  .container {
+    min-width: 550px;
+  }
+  /*DEESERTS-VIDEO*/
+  #Desserts-video h2 {
+    color: #4e3969;
+  }
+  #Desserts-video span {
+    display: none;
+  }
+  #Desserts-video .card {
+    background-color: white;
+  }
+  #Desserts-video .card-content {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  #Desserts-video li {
+    padding-bottom: 5px;
+  }
+  #Desserts-video .description-video {
+    padding-top: 20px;
+  }
+  #Desserts-video .description-video b {
+    color: #4e3969;
+    font-weight: 900;
+    padding-bottom: 15px;
+  }
+  #Desserts-video .card-content p {
+    font-size: 1.5rem;
+    color: #4e3969;
+  }
+  /*ICON-AWSOME*/
+  #icon-awsome span {
+    display: none;
+  }
+  #icon-awsome .flex-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+}
